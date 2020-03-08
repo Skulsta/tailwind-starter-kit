@@ -26,35 +26,12 @@
           <h5 class="text-lg mt-0 mb-2 text-gray-700">
             Find us on any of these platforms, we respond 1-2 business days.
           </h5>
-          <div class="mt-6">
-            <button
-              class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-              type="button"
-            >
-              <i class="fab fa-twitter"></i></button
-            ><button
-              class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-              type="button"
-            >
-              <i class="fab fa-facebook-square"></i></button
-            ><button
-              class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-              type="button"
-            >
-              <i class="fab fa-dribbble"></i></button
-            ><button
-              class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-              type="button"
-            >
-              <i class="fab fa-github"></i>
-            </button>
-          </div>
         </div>
         <div class="w-full lg:w-6/12 px-4">
           <div class="flex flex-wrap items-top mb-6">
-            <div class="w-full lg:w-4/12 px-4 ml-auto">
+            <div class="w-full lg:w-4/12">
               <span
-                class="block uppercase text-gray-600 text-sm font-semibold mb-2"
+                class="mt-6 block uppercase text-gray-600 text-sm font-semibold mb-2"
                 >Useful Links</span
               >
               <ul class="list-unstyled">
@@ -88,7 +65,7 @@
                 </li>
               </ul>
             </div>
-            <div class="w-full lg:w-4/12 px-4">
+            <div class="w-full lg:w-4/12">
               <span
                 class="block uppercase text-gray-600 text-sm font-semibold mb-2"
                 >Other Resources</span
@@ -124,21 +101,6 @@
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
-      </div>
-      <hr class="my-6 border-gray-400" />
-      <div
-        class="flex flex-wrap items-center md:justify-between justify-center"
-      >
-        <div class="w-full md:w-4/12 px-4 mx-auto text-center">
-          <div class="text-sm text-gray-600 font-semibold py-1">
-            Copyright © {{date}} Tailwind Starter Kit by
-            <a
-              href="https://www.creative-tim.com"
-              class="text-gray-600 hover:text-gray-900"
-              >Creative Tim</a
-            >.
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@
       >
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover"
-          style='background-image: url("https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1267&amp;q=80");'
+          :style="{'background-image': `url(${require('../assets/img/stage.jpg')})`}"
         >
           <span
             id="blackOverlay"
@@ -18,14 +18,12 @@
         <div class="container relative mx-auto">
           <div class="items-center flex flex-wrap">
             <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-              <div class="pr-12">
+              <div class="pr-auto">
                 <h1 class="text-white font-semibold text-5xl">
-                  Your story starts with us.
+                  Hi, I'm Stian
                 </h1>
                 <p class="mt-4 text-lg text-gray-300">
-                  This is a simple example of a Landing Page you can build using
-                  Tailwind Starter Kit. It features multiple CSS components
-                  based on the Tailwindcss design system.
+                  I have a background in software engineering and business development. This site shows some of the work that I've done in both field
                 </p>
               </div>
             </div>
@@ -207,7 +205,7 @@
             <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
               <div class="md:pr-12">
                 <div
-                  class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"
+                  class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 mt-6 shadow-lg rounded-full bg-pink-300"
                 >
                   <i class="fas fa-rocket text-xl"></i>
                 </div>
@@ -282,7 +280,7 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  src="../assets/img/team-1-800x800.jpg"
+                  src="../assets/img/stage.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
@@ -440,7 +438,7 @@
         <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
           <div class="flex flex-wrap text-center justify-center">
             <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold text-white">Build something</h2>
+              <h2 class="mt-6 text-4xl font-semibold text-white">Build something</h2>
               <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
                 Put the potentially record low maximum sea ice extent tihs year
                 down to low ice. According to the National Oceanic and
@@ -484,7 +482,7 @@
                 <i class="fas fa-lightbulb text-xl"></i>
               </div>
               <h5 class="text-xl mt-5 font-semibold text-white">Launch time</h5>
-              <p class="mt-2 mb-4 text-gray-500">
+              <p class="mt-2 mb-12 text-gray-500">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
